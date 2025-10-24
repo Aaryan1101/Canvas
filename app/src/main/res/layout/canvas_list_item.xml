@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="4dp"
+    android:layout_marginVertical="4dp"
+    app:cardBackgroundColor="#2E2E2E"
+    app:cardCornerRadius="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="12dp">
+
+<!-- Canvas Title -->
+<TextView
+    android:id="@+id/text_view_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="16sp"
+    android:textColor="@android:color/white"
+    android:text="My First Canvas File" />
+
+<!-- Last Modified Date -->
+<TextView
+    android:id="@+id/text_view_last_modified"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    android:textColor="#C0C0C0"
+    android:layout_marginTop="4dp"
+    android:text="Last modified: Oct 24, 2025" />
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
